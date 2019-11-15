@@ -1,7 +1,7 @@
 <template>
   <div id="app">
-    <product-list-one v-bind:products="products"></product-list-one>
-    <product-list-two v-bind:products="products"></product-list-two>
+    <product-list-one></product-list-one>
+    <product-list-two></product-list-two>
   </div>
 </template>
 
@@ -16,14 +16,7 @@ export default {
   },
   name: 'app',
   data() {
-    return {
-      products: [
-        { name: 'AIP Banana Bread', price: 20 },
-        { name: 'Paleo Turkey and "Rice"', price: 40 },
-        { name: 'Keto Tortillas', price: 60 },
-        { name: 'Black Bean Brownies', price: 80 }
-      ]
-    };
+    return {};
   }
 };
 </script>
